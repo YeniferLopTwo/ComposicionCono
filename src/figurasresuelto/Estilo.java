@@ -12,21 +12,33 @@ package figurasresuelto;
 public final class Estilo {
 
     private String color, grosor;
-
+/**
+ * 
+ */
     public Estilo() {
         this.color = "sin color";
         this.grosor = "sin grosor";
     }
-
+/**
+ * 
+ * @param color definidp
+ * @param grosor definido
+ */
     public Estilo(String color, String grosor) {
         this.color = color;
         this.grosor = grosor;
     }
-
+/**
+ * 
+ * @return obtiene color
+ */
     public String getColor() {
         return color;
     }
-
+/**
+ * 
+ * @param color lo muestra
+ */
     public void setColor(String color) {
         this.color = color;
     }
